@@ -183,10 +183,28 @@ export default tseslint.config({
 ## Website Workflow
 
 1. **Homepage:** Displays all available listings with options to filter by category, location, and search keywords.
+
+![Screenshot (156)](https://github.com/user-attachments/assets/8c88f50c-f5c7-41ca-bc0c-1459bf48aa31)
+
 2. **Product Listing:** Allows sellers to create new listings with attributes such as title, price, and images.
+
+![Screenshot (161)](https://github.com/user-attachments/assets/a5e8ed33-3750-40ab-b13a-e89adb6182be)
+
+![image](https://github.com/user-attachments/assets/0151fb6c-06d6-447d-9703-88365435328d)
+
 3. **Dynamic Listings:** Automatically updates the homepage with real-time product data fetched from Firestore.
+
+![Screenshot (166)](https://github.com/user-attachments/assets/dec33a1c-9a63-46a8-a00d-fc6f2981ab10)
+
+
 4. **User Authentication:** Provides secure login and signup options using Firebase.
+
+![Screenshot (159)](https://github.com/user-attachments/assets/d85c097f-a002-4b40-839b-db5182300100)
+
 5. **Details Page:** Offers an in-depth view of each product, including seller details and location.
+
+![Screenshot (164)](https://github.com/user-attachments/assets/455644cd-2ef2-4b05-8239-fdfe3f923dcb)
+
 
 ## Future Enhancements
 - **AI Recommendations:** Suggest products based on user preferences.
@@ -211,15 +229,12 @@ We welcome contributions to enhance the platform. To contribute:
    ```
 5. Open a pull request.
 
-## License
-This project is licensed under the [MIT License](LICENSE).
-
 ## Acknowledgments
 - **Firebase:** For seamless backend and authentication solutions.
 - **React.js:** For building a dynamic and user-friendly interface.
 - **Tailwind CSS:** For rapid UI development with consistent styling.
 
 ---
-For any questions or support, feel free to contact us at [support@resellingwebsite.com](mailto:support@resellingwebsite.com).
+For any questions or support, feel free to contact us at [support@resellingwebsite.com](mailto:ssanthosh0289@gmail.com).
 
 
