@@ -182,7 +182,7 @@ export default tseslint.config({
 
 ## Website Workflow
 
-1. **Homepage:** Displays all available listings with options to filter by category, location, and search keywords.
+1. ###Homepage: Displays all available listings with options to filter by category, location, and search keywords.
 
 ![Screenshot (156)](https://github.com/user-attachments/assets/8c88f50c-f5c7-41ca-bc0c-1459bf48aa31)
 
