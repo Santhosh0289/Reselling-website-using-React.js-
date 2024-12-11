@@ -1,0 +1,119 @@
+.sell-page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.sell-header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ccc;
+}
+
+.back-arrow {
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.sell-box {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fafafa;
+}
+
+.category-list {
+    width: 50%;
+    border-right: 1px solid #ddd;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.category-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    color: #6b7280;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin-bottom: 10px;
+}
+
+.category-item:hover {
+    background-color: #e2e2e2;
+    color: #333;
+}
+
+.category-icon {
+    font-size: 20px;
+}
+
+.category-name {
+    font-size: 18px;
+    flex-grow: 1;
+    margin-left: 15px;
+}
+
+.category-arrow {
+    font-size: 20px;
+    color: #6b7280;
+}
+
+.subcategory-list {
+    width: 50%;
+    padding: 20px;
+}
+
+.subcategory-container {
+    display: flex;
+    flex-direction: column; /* Keep this to stack the items vertically */
+}
+
+.top-subcategories {
+    display: flex;
+    flex-direction: column; /* Subcategories displayed from top to bottom */
+}
+
+.bottom-subcategories {
+    display: flex;
+    flex-direction: column-reverse; /* Subcategories displayed from bottom to top */
+}
+
+.subcategory-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.subcategory-button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    color: #6b7280;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+}
+
+.subcategory-button:hover {
+    background-color: #e2e2e2;
+}
+
+.selected {
+    background-color: #ddd;
+}
+
+
+
+
+
+
+

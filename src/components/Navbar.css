@@ -1,0 +1,9 @@
+.arrow-up {
+    transform: rotate(180deg); /* Rotate arrow up when clicked */
+    transition: transform 0.3s ease;
+}
+
+
+.justify-between {
+    justify-content: space-between;
+}

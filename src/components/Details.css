@@ -1,0 +1,90 @@
+.details-content {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent wrapping */
+    margin: 20px; /* Add some margin around the content */
+  }
+  
+  .image-section {
+    width: 60%; /* Make image section take 60% of the width */
+    display: flex; /* Center the image */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+  
+  .product-image {
+    width: 100%; /* Set to 100% of the parent container */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 600px; /* Set a height limit for the image */
+    border-radius: 8px; /* Optional: add rounded corners */
+  }
+  
+  .product-details {
+    width: 40%; /* Make product details take 40% of the width */
+    display: flex;
+    flex-direction: column; /* Arrange child elements vertically */
+    justify-content: flex-start; /* Align items to the start */
+  }
+  
+  .ad-title {
+    font-size: 1.8rem; /* Increase font size for the ad title */
+    font-weight: bold; /* Make ad title bold */
+    color: #333; /* Dark color for the ad title */
+    margin-bottom: 10px; /* Space below ad title */
+  }
+  
+  .attribute-title {
+    font-weight: bold; /* Make attribute titles bold */
+    color: #555; /* Dark gray color for attributes */
+  }
+  
+  .make-offer-button {
+    background-color: #FFCC00; /* Highlight color for make offer button */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 15px; /* Add padding */
+    cursor: pointer; /* Change cursor on hover */
+    margin-top: 10px; /* Space above button */
+  }
+  
+  .make-offer-button:hover {
+    background-color: #FFB300; /* Darker shade on hover */
+  }
+  
+  .contact-details {
+    margin-top: 10px; /* Add some space above contact details */
+    padding: 10px; /* Inner spacing for the box */
+    background-color: #f0f0f0; /* Light background for contrast */
+    border: 1px solid #ccc; /* Outline for the contact box */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  .overview-section {
+    margin-top: 20px; /* Add some space above the overview */
+    padding: 10px; /* Inner spacing for the box */
+    background-color: #f0f0f0; /* Light background for contrast */
+    border: 1px solid #ccc; /* Outline for the overview box */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  .description-section {
+    margin-top: 20px; /* Space above the description */
+    padding: 10px; /* Inner spacing for the description box */
+    border: 1px solid #ccc; /* Outline for the description box */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background */
+    word-wrap: break-word; /* Ensure long words break and wrap onto the next line */
+    overflow-wrap: break-word; /* For wider browser compatibility */
+    white-space: pre-wrap; /* Maintain whitespace and ensure the text wraps */
+    
+    max-width: 100%; /* Ensure the box doesn't exceed the parent width */
+    overflow: hidden; /* Hide overflow if content exceeds */
+  }
+  
+  
+  .box {
+    border: 1px solid #ccc; /* Outline for the box */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Inner spacing */
+    background-color: #f9f9f9; /* Light background */
+  }
+  

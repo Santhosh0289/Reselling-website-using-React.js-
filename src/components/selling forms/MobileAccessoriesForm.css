@@ -1,0 +1,104 @@
+.mobile-accessories-form-container {
+    width: 60%; /* Ensure the same width as SmartphoneForm */
+    margin: 0 auto; /* Center the form */
+    padding: 20px; /* Padding for aesthetics */
+    background-color: #f9f9f9; /* Light background color */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.form-header {
+    text-align: center; /* Center header text */
+}
+
+.category-selector {
+    margin-top: 10px; /* Margin above selector */
+    font-size: 14px; /* Font size */
+    color: #888; /* Light gray color */
+}
+
+.form-section {
+    margin-bottom: 20px; /* Space between sections */
+}
+
+.section-divider {
+    margin: 10px 0; /* Margin for dividers */
+    border-top: 1px solid #ccc; /* Light gray border */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Space between form groups */
+}
+
+.form-group label {
+    display: block; /* Block display for labels */
+    font-weight: bold; /* Bold labels */
+    margin-bottom: 5px; /* Margin below labels */
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%; /* Full width inputs */
+    padding: 8px; /* Padding inside inputs */
+    border: 1px solid #ccc; /* Border for inputs */
+    border-radius: 4px; /* Rounded input corners */
+}
+
+.form-group textarea {
+    resize: vertical; /* Allow vertical resizing */
+    height: 100px; /* Set default height for textarea */
+}
+
+.submit-button {
+    display: inline-block; /* Inline button */
+    padding: 10px 20px; /* Button padding */
+    background-color: #28a745; /* Green background */
+    color: white; /* White text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded button corners */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.submit-button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.review-section {
+    margin-top: 20px; /* Space above review section */
+    text-align: center; /* Center text in review */
+}
+
+.review-section p {
+    margin: 5px 0; /* Spacing between review items */
+}
+
+.review-section .submit-button {
+    background-color: #007bff; /* Blue for confirm submission */
+}
+
+.review-section .submit-button:hover {
+    background-color: #0069d9; /* Darker blue on hover */
+}
+
+.review-section {
+    padding: 20px; /* Padding for review section */
+    background-color: #f9f9f9; /* Light background */
+    border: 1px solid #ccc; /* Border for review */
+    border-radius: 8px; /* Rounded corners */
+    margin-top: 20px; /* Margin above review section */
+}
+
+.review-details {
+    margin: 10px 0; /* Spacing for review details */
+}
+
+.review-details p {
+    font-size: 16px; /* Font size for details */
+    line-height: 1.5; /* Line height for readability */
+}
+
+.review-details strong {
+    color: #333; /* Darker color for emphasis */
+}
+
