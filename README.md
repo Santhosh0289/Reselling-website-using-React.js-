@@ -194,7 +194,7 @@ Allows sellers to create new listings with attributes such as title, price, and 
 
 ![image](https://github.com/user-attachments/assets/0151fb6c-06d6-447d-9703-88365435328d)
 
-### **Dynamic Listings:
+### Dynamic Listings:
 Automatically updates the homepage with real-time product data fetched from Firestore.
 
 ![Screenshot (166)](https://github.com/user-attachments/assets/dec33a1c-9a63-46a8-a00d-fc6f2981ab10)
